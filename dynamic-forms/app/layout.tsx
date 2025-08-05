@@ -1,14 +1,17 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Dynamic Forms - Criador de Formulários',
-  description: 'Crie formulários dinâmicos com lógica condicional de forma simples e intuitiva',
-  keywords: ['formulários', 'forms', 'dinâmico', 'condicional', 'pesquisa'],
-  authors: [{ name: 'Dynamic Forms Team' }],
+  title: "Dynamic Forms - Criador de Formulários",
+  description: "Crie formulários dinâmicos com lógica condicional de forma simples e intuitiva",
+  keywords: ["formulários", "forms", "dinâmico", "condicional", "pesquisa"],
+  authors: [{ name: "Dynamic Forms Team" }],
+  viewport: "width=device-width, initial-scale=1",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
